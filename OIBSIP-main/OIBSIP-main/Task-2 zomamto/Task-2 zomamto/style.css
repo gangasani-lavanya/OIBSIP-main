@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nv {
+  background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+  width: 100%;
+  height: 400px;
+}
+
+.nv nav {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+nav p {
+  display: inline-block;
+  margin-inline: 11px;
+  margin-top: 22px;
+}
+
+.nv .logo {
+  text-align: center;
+}
+
+.nv .logo img {
+  width: 20%;
+  margin-top: 77px;
+}
+
+.nv .text {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+
+.nv .inp {
+  text-align: center;
+}
+
+.nv .inp input {
+  width: 600px;
+  height: 33px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 19px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Mukta', sans-serif;
+  margin-top: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.card .crd {
+  margin: 20px;
+}
+
+.card .crd img {
+  width: 320px;
+  height: 220px;
+  border-radius: 6px;
+}
+
+.coll .txt {
+  margin-left: 34px;
+  margin-top: 64px;
+  padding: 33px;
+}
+
+.coll .rest {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.rest img {
+  width: 22%;
+  border-radius: 7px;
+}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(249, 229, 233);
+  margin: 7% 0;
+  padding: 30px;
+}
+
+.app img {
+  width: 20%;
+}
+
+.dee {
+  font-size: 44px;
+}
+
+.btn {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.btn h1 {
+  margin-top: 44px;
+  padding: 33px;
+}
+
+.btn button {
+  width: 900px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 11px auto;
+  font-size: 22px;
+  display: block;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(235, 231, 231);
+  padding: 44px;
+  flex-wrap: wrap;
+}
+
+.foot .list {
+  width: 18%;
+}
+
+.foot .list h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.foot .list p {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .nv .inp input, .btn button {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rest img {
+    width: 45%;
+  }
+
+  .app {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .foot {
+    flex-direction: column;
+  }
+
+  .foot .list {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
